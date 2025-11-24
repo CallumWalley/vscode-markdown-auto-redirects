@@ -30,7 +30,7 @@
   },
   "main": "./out/extension.js",
   "activationEvents": [
-    "workspace.onDidRenameFiles"
+    "*"
   ],
   "repository": {
     "type": "git",

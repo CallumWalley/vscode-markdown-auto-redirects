@@ -6,6 +6,9 @@ import { minimatch } from "minimatch";
 
 export function activate(context: vscode.ExtensionContext) {
 
+    vscode.window.showErrorMessage(
+        `PAAAIIIIIIIIINNNNN`
+    );
     const disposable = vscode.workspace.onDidRenameFiles(async (event) => {
         const workspaceRoot = vscode.workspace.workspaceFolders?.[0]?.uri.fsPath;
         if (!workspaceRoot) {

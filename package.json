@@ -11,6 +11,10 @@
   "activationEvents": [
     "workspace.onDidRenameFiles"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CallumWalley/vscode-markdown-auto-redirects"
+  },
   "contributes": {
     "configuration": {
       "title": "Markdown Auto Redirects",

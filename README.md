@@ -7,17 +7,10 @@ The idea is, whenever a file is moved or renamed, an entry should be written int
 
 ## Requirements
 
-Maybe
+* minimatch
 
 ## Extension Settings
 
 * `markdownAutoRedirects.mapFile`: Where the mapping of old to new file will be written out.
+* `markdownAutoRedirects.relativeTo`: Entries will be relative to this.
 * `markdown.updateLinksOnFileMove.include`: Will respect patterns defined here.
-
-## Known Issues
-
-## Release Notes
-
-### 1.0.0
-
-Initial release.

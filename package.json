@@ -44,6 +44,11 @@
           "type": "string",
           "default": "redirects_map.yml",
           "description": "Path (relative to workspace root) to map file."
+        },
+        "markdownAutoRedirects.relativeTo": {
+          "type": "",
+          "default": "",
+          "description": "Relative to what directory will redirects be made (e.g. if you serve from a directory)."
         }
       }
     }

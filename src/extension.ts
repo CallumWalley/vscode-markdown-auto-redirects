@@ -21,6 +21,8 @@ export function activate(context: vscode.ExtensionContext) {
         // Get extension settings
         const config = vscode.workspace.getConfiguration("markdownAutoRedirects");
         const mapFile = config.get<string>("mapFile") ?? "";
+        const relativeTo = config.get<string>("relativeTo") ?? "";
+
         const mapFilePath = path.join(workspaceRoot, mapFile);
 
         const entries: string[] = [];
@@ -35,7 +37,7 @@ export function activate(context: vscode.ExtensionContext) {
             );
 
             if (matches) {
-                entries.push(`${relOld} : ${relNew}`);
+                entries.push(`${path.relative(relativeTo, relOld)} : ${path.relative(relativeTo, relOld)}`);
             }
         }
 

@@ -7,7 +7,7 @@ The idea is, whenever a file is moved or renamed, an entry should be written int
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Maybe
 
 ## Extension Settings
 

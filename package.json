@@ -1,0 +1,26 @@
+{
+  "name": "markdown-auto-redirects",
+  "displayName": "Markdown Auto Redirects",
+  "description": "Adds to a map file when a file is moved",
+  "version": "0.0.1",
+  "publisher": "cal",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "workspace.onDidRenameFiles"
+  ],
+  "contributes": {
+    "configuration": {
+      "title": "Markdown Auto Redirects",
+      "properties": {
+        "markdownAutoRedirects.mapFile": {
+          "type": "string",
+          "default": "redirects_map.yml",
+          "description": "Path (relative to workspace root) to map file."
+        }
+      }
+    }
+  }
+} 

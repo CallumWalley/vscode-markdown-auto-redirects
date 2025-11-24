@@ -3,9 +3,12 @@
   "displayName": "Markdown Auto Redirects",
   "description": "Adds to a map file when a file is moved. This is my first extension, critque welcome.",
   "version": "0.0.1",
-  "publisher": "cal",
+  "publisher": "calreannz",
   "engines": {
     "vscode": "^1.80.0"
+  },
+  "scripts": {
+    "test": "vscode-test"
   },
   "main": "./out/extension.js",
   "activationEvents": [
@@ -26,5 +29,9 @@
         }
       }
     }
+  },
+  "devDependencies": {
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
   }
-} 
+}

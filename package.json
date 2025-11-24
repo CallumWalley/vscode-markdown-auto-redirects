@@ -30,7 +30,7 @@
   },
   "main": "./out/extension.js",
   "activationEvents": [
-    "*"
+    "onStartupFinished"
   ],
   "repository": {
     "type": "git",

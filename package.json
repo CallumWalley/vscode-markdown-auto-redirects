@@ -2,7 +2,7 @@
   "name": "markdown-auto-redirects",
   "displayName": "Markdown Auto Redirects",
   "description": "Adds to a map file when a file is moved. This is my first extension, critque welcome.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "calreannz",
   "engines": {
     "vscode": "^1.106.1"

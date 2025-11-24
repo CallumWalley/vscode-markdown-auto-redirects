@@ -3,7 +3,6 @@ import * as path from "path";
 import * as fs from "fs";
 import { minimatch } from "minimatch";
 
-
 export function activate(context: vscode.ExtensionContext) {
 
     vscode.window.showErrorMessage(

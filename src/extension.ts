@@ -37,7 +37,7 @@ export function activate(context: vscode.ExtensionContext) {
             );
 
             if (matches) {
-                entries.push(`${path.relative(relativeTo, relOld)} : ${path.relative(relativeTo, relOld)}`);
+                entries.push(`${path.relative(relativeTo, relOld)} : ${path.relative(relativeTo, relNew)}`);
             }
         }
 
